@@ -1,0 +1,258 @@
+<style>
+/*HOJ*/
+/*图片背景*/
+html > body {
+    background-image: url(https://www.parallels.com/cn/blogs/app/uploads/sites/4/2024/06/macos-background-1.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.admin-container{
+    background-image: url(https://www.parallels.com/cn/blogs/app/uploads/sites/4/2024/06/macos-background-1.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*导航栏*/
+div#header[data-v-91b8bb9e]
+{
+   background: 0!important;
+   box-shadow: none;
+}
+.el-menu.el-menu--horizontal,ul[data-v-975c69fa].vertical_menu.el-menu
+{
+    margin: 5px;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+    background: rgba(255, 255, 255, .6);
+}
+.el-menu .el-menu-item[data-v-91b8bb9e]:hover, .el-menu .el-menu-item i[data-v-91b8bb9e]:hover, .el-menu--horizontal .el-menu .el-menu-item[data-v-91b8bb9e]:hover, .el-submenu[data-v-91b8bb9e] .el-submenu__title:hover, .el-submenu.is-active[data-v-91b8bb9e]{
+i[data-v-91b8bb9e]{
+    background: 0 !important;
+}
+    background: 0 !important;
+}
+.el-menu .el-menu-item.is-active[data-v-91b8bb9e], .el-menu .el-menu-item.is-active i[data-v-91b8bb9e], .el-menu.el-menu--popup.el-menu--popup-bottom-start li{
+    background: 0 !important;
+}
+.el-menu.el-menu--popup.el-menu--popup-bottom-start{
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+    background: rgba(255, 255, 255, .5);
+    margin-top: 0;
+}
+.el-menu--horizontal{
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+    background: rgba(255, 255, 255, .5);
+}
+/*状态条*/
+    .el-progress-bar__inner{
+        border-radius: 20px !important;
+        background: #8e2de2;
+        background: -webkit-linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224));
+        background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224)) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       !important;
+    }
+    .el-progress-bar__outer{
+        background:0;
+        border-style:dashed;
+        border-width:2px;
+        border-color:#fff3;
+    }
+/*-模糊-*/
+/*卡片*/
+.el-card { 
+    -webkit-backdrop-filter: blur(20px);/*!important导致团队讨论问题*/
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, .4);
+    box-shadow: 3px 3px 20px #656565;
+    border-radius: 20px !important;
+    border:0;
+}
+.signature-body{
+    background:0 !important;
+}
+.el-dialog,.el-message-box{ 
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 3px 3px 20px #656565;
+    border-radius: 20px !important;
+    border:0;
+}
+.el-menu-item{
+    background:0;
+}
+/*添加图片*/
+.add-image-link{
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, .9)!important;
+    border-radius: 20px !important;
+}
+/*消息通知*/
+.el-notification{
+    top: 80px!important;
+    height:100px;
+    border:0;
+}
+.el-tabs__nav-wrap.is-scrollable.is-left{
+    border-radius: 20px !important;
+}
+/*评测*/
+div[data-v-7a1f5b36].vxe-table{
+    background: rgba(255, 255, 255, .4)!important;
+}
+.el-alert{
+    border-radius: 30px !important;
+    border:0;
+}
+/*比赛-卡片*/
+#pane-ContestProblemList{
+    background: rgba(255, 255, 255, .4)!important;
+}
+/*按钮*/
+.el-botton,.fix-to-bottom { 
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+    background: rgba(255, 255, 255, .6);
+}
+.el-notification{
+    border-radius: 30px;
+    -webkit-backdrop-filter: blur(30px) !important;
+    backdrop-filter: blur(30px) !important;
+    background: rgba(255, 255, 255, .6);
+}
+/*滚动条*/
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(137, 81, 234, .99);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #5e72e4;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, .12);
+}
+/*超链接*/
+a {
+    transition: all .15s ease;
+    color: #005C97;
+}
+a:hover {
+    color: #fa4b4b;
+}
+a{ position: relative; }
+a:not(.exlg-dash-options)::after{ content: ""; width: 0; height: 4px; background: rgba(255, 0, 0, .575); position: absolute; top: 100%; left: 50%; transition: all .3s; }
+a:not(.exlg-dash-options):hover::after{ left: 0%; width: 100%; }
+a[data-v-303bbf52][data-v-639bc19b][data-v-5e85f938]::after{
+    height: 0px !important;
+}
+a[data-v-303bbf52][data-v-258e49ac]::after{
+    height: 0px !important;
+}
+/*选择框*/
+.selected:not([data-v-66021821]) {
+    transition:0s;
+    color:#fff !important;
+    background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+    border-radius:5px !important;
+}
+.selected > span{
+    color:#fff !important;
+}
+/*复制按钮*/
+.code-copy  {
+    border-radius: 20px !important;
+    background: #8e2de2;
+    background: -webkit-linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224));
+    background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224)) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       !important;
+}
+/*Tag*/
+
+.el-tag--success.el-tag--dark,.greenoj,.el-card.solved{
+    background: #00b09b;
+    background: -webkit-linear-gradient(to right, rgb(0, 176, 155), rgb(150, 201, 61));
+    background: linear-gradient(to right, rgb(0, 176, 155), rgb(150, 201, 61));
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    font-weight:bold;
+    color:white!important;
+}
+.el-tag--warning.el-tag--dark,.yoj,.el-card.score{
+    background: #b3ad00;
+    background: -webkit-linear-gradient(to right, rgb(225, 173, 15), rgb(177, 195, 60));
+    background: linear-gradient(to right, rgb(202, 219, 13), rgb(169, 200, 57));
+    border: 10px;
+    transition: all 0.3s ease;
+    font-weight:bold;
+    color:white!important;
+}
+.el-tag--danger.el-tag--dark,.op-btn.cancel,.roj,.el-card.rating{
+    background: #b3007b;
+    background: -webkit-linear-gradient(to right, rgb(225, 105, 15), rgb(255, 65, 65));
+    background: linear-gradient(to right, rgb(219, 82, 13), rgb(255, 72, 72));
+    border: 10px;
+    transition: all 0.3s ease;
+    font-weight:bold;
+    color:white!important;
+}
+.op-btn.sure,.oj-botton {
+    border-radius: 20px !important;
+    background: #8e2de2;
+    background: -webkit-linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224));
+    background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224)) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       !important;
+}
+.blueoj,.el-card.submission{
+    background: #0000b3;
+    background: -webkit-linear-gradient(to right, rgb(15, 117, 225), rgb(65, 223, 255));
+    background: linear-gradient(to right, rgb(13, 116, 219), rgb(78, 72, 255));
+    border: 10px;
+    transition: all 0.3s ease;
+    font-weight:bold;
+    color:white!important;
+}
+
+/* -------------------------------- 圆角化 --------------------------------- */
+
+/* _button_ */
+.el-tooltip,.el-button--small,.el-button--primary,.el-button--default,.el-button--small,.el-button--danger,.op-btn{ 
+    border-radius: 20px !important;
+}
+/* _Other_ */
+pre,.el-tabs__content,.m-message,.el-select,.am-btn.am-btn-sm,.el-tooltip__popper,.el-col.el-col-24,.el-tag,.content.is-left,.el-icon-refresh,.el-submit-detail,.el-tooltip,.description-body,iframe,img{
+    border:0;
+    border-radius: 20px !important;
+}
+.btn{
+    border-radius: 10px;
+}
+.el-image{
+    border-radius: 15px !important;
+}
+.el-menu{
+    border-radius: 8px !important;
+    border:0;
+}
+.el-tabs{
+    border-radius: 20px !important;
+    border:0;
+}
+.container{
+    border-radius: 15px !important;
+}
+.el-collapse-item__header,.el-collapse-item__wrap{
+    background: rgba(255, 255, 255, .0);
+}
+.el-button--ghost{
+    border-radius: 30px !important;
+}
+.is-top{
+    border-radius: 20px !important;
+}
+</style>
